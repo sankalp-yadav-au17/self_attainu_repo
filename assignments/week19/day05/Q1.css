@@ -1,0 +1,173 @@
+.main{
+    padding:0px 400px;
+    flex-wrap: wrap;
+}
+
+
+.header{
+    display: flex;
+    /* position: relative; */
+    top: 0px;
+    flex-direction: row;
+    width: 100%;
+    /* border: 2px solid #dcdcdc; */
+}
+
+.insta_logo1{
+    height: 60px;
+    width: 100px;
+    padding: 0px 10px;
+    align-self: center;
+}
+
+.insta_logo1:hover{
+    cursor: pointer;
+}
+
+.insta_logo2{
+    height: 40px;
+    width: 40px;
+    padding-top: 20px;
+    padding: 0px 20px;
+    padding-bottom:30px;
+}
+
+.search{
+    align-self: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 20px;
+    padding: 8px 40px ;
+    border-radius: 5px;
+    border: 2px solid #dcdcdc;
+}
+
+.home_button{
+    align-self: center;
+    padding-right: 40px;
+    height: 30px;
+} 
+
+.home_button:hover{
+    cursor: pointer;
+}
+
+.user_info{
+    height: 300px;
+    display: flex;
+    width: 100%;
+    /* background-color: blanchedalmond; */
+}
+
+.dp{
+    height: 300px;
+    display: flex;
+    width: 300px;
+    padding-right:100px;
+    /* border-radius: 50%; */
+}
+
+.dp_killua{
+    height: 200px;
+    width: 200px;
+    padding: 30px 100px;
+    border-radius: 50%;
+    /* border: 2px solid #dc3171; */
+
+}
+
+.dp_killua:hover{
+    cursor: pointer;
+}
+
+.details{
+    display: flex;
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color:rgb(54, 54, 54);
+    font-weight:300;
+}
+
+.blue_tick{
+    height: 20px;
+    width: 20px;
+    margin:39px 10px;
+}
+
+.gear{
+    height: 20px;
+    width: 20px;
+    margin:37px 10px;
+}
+
+.gear{
+    cursor: pointer;
+}
+
+.edit_profile{
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid #dcdcdc;
+    margin:31px 1px;
+    font-weight: bold;
+}
+
+.edit_profile:hover{
+    cursor: pointer;
+}
+
+.sub{
+    display: flex;
+    flex-direction: column;
+}
+
+span{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span:hover{
+    cursor: pointer;
+}
+
+.pff{
+    margin-bottom: 30px;
+}
+
+.bio{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.foll_by{
+    margin-top: 30px;
+    color: #9d9d9d;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span.foll_by{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.images{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+img.images{
+    height: 300px;
+    width: 300px;
+    padding: 15px;
+    position: relative;
+
+}
+
+img.images:hover{
+    filter: brightness(50%);
+    cursor: pointer;
+}

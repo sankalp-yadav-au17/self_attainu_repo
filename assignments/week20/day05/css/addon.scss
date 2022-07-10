@@ -1,0 +1,40 @@
+.sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .slides_carousal{
+        height: 500px;
+        width: 600px ;
+    }        
+}
+
+.sec2{
+    display: flex;
+    justify-content: center;
+
+    .part1 img{
+        background-color: bisque;
+        height: 106px;
+        object-fit: cover;
+        filter: brightness(50%);
+    }
+
+    .part3 img{
+        background-color: bisque;
+        height: 212px;
+        object-fit: cover;
+    }
+    .pop_up{
+        transition: 0.1s ease-in-out;
+        filter: brightness(50%);
+    }
+
+    .pop_up:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        filter: brightness(1);
+
+    }
+}
+

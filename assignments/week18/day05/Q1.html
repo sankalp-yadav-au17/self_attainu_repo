@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="Q1.css">
+    </head>
+    <body>
+        
+        <div>
+            <h1>Sign Up</h1>
+            <p class="heading qus">
+                <span>1</span> Your Basic Info 
+            </p>
+
+            <label class="qus" for="username">Name:</label>
+            <br>
+            <input type="text" id="usernme" class="ans" name="username">
+            <br>
+            <br>
+
+            <label class="qus" for="email">Email:</label>
+            <br>
+            <input type="email" class="ans" id="email" name="email">
+            <br>
+            <br>
+
+            <label class="qus" for="pass">Password:</label>
+            <br>
+            <input type="password" class="ans"id="pass" name="pass">
+            <br>
+            <br>
+
+            <label class="qus" for="age">Age:</label>
+            <br>
+            <input class="age_and_int" type="radio" name="color" value="under13">Under 13 <br>
+            <input class="age_and_int" type="radio" name="color" value="over13">Over 13
+
+            <p class="heading qus">
+                <span>2</span> Your Profile 
+            </p>
+
+            <label class="qus" for="bio">Bio:</label><br>
+            <textarea class="bio" name="bio" id="bio" cols="50" rows="2"></textarea>
+            <br>
+            <br>
+
+            <label class="qus" for="job">Job Role:</label><br>
+            <select class="ans" name="jobs" id="job">
+                <optgroup label="Web">
+                    <option value="front-end developer">Front-End Developer</option>
+                    <option value="PHP">PHP Developer</option>
+                    <option value="python">Python Developer</option>
+                    <option value="Rails">Rails Developer</option>
+                    <option value="webdesigner">Web Designer</option>
+                    <option value="Wordpress">Wordpress Developer</option>
+                </optgroup>
+                
+                <optgroup label="Mobile">
+                    <option value="androiddeveloper">Android Developer</option>
+                    <option value="IOS">IOS Developer</option>
+                    <option value="mobiledesigner">Mobile Designer</option>
+                </optgroup>
+
+                <optgroup label="Bussiness">
+                    <option value="Bussiness Owner">Bussiness Owner</option>
+                    <option value="Freelancer">Freelancer</option>
+                </optgroup>
+
+            </select>
+            <br>
+            <br>
+
+            <label class="qus" for="Interest">Interests:</label><br>
+            <input class="age_and_int" type="checkbox" id="Interest" value="Development">Development <br>
+            <input class="age_and_int" type="checkbox" id="Interest" value="Design">Design <br>
+            <input class="age_and_int" type="checkbox" id="Interest" value="Bussiness">Bussiness 
+            <br>
+
+            <button class="signup" type="button" onclick="alert('Successfully Submitted !')">Sign Up !</button>
+
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; img-src https://*; child-src 'none';"> -->
+
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+</head>
+<body>
+    <main class="container">
+        <form action="/collections" method="POST" enctype="multipart/form-data">
+            <section>
+                <h1>Sign Up</h1>
+            </section>
+            <section>
+                <div>
+                    name
+                </div>
+                <div>
+                    <input type="text" name="name">
+                </div>
+            </section>
+            <section>
+                <div>
+                    Email address
+                </div>
+                <div>
+                    <input type="text" name=email>
+                </div>
+            </section>
+            <section>
+                <div>
+                    Password
+                </div>
+                <div>
+                    <input type="password" name="password">
+                </div>
+            </section>
+            <section>
+                <div>
+                    Avatar image
+                </div>
+                <div>
+                    <input  type="file" name="image">
+                </div>
+            </section>
+            <section class="mt-2">
+                <button class="bg-primary text-light rounded">Submit</button>
+            </section>
+        </form>
+        <section id="output"></section>
+    </main>
+    <!-- <img width="500" src="/fe4b3f37895b1990360f4fae6f439f58-Screenshot from 2021-09-29 13-01-54.png" alt=""> -->
+    <script>
+        const body = document.getElementById('output')
+        async function getData(){
+            const response = await fetch('/collections')
+            const data = await response.json()
+
+            data.forEach(rest =>{
+                const html = `<section></section>
+                <div>
+                                <img width="500" src='${res.image}' alt="">
+                            </div>`
+                // const img = document.createElement('img')
+                img.src = rest.image 
+                img.width = 500
+                body.appendChild(html)
+            })
+        }
+        getData()
+    </script>
+</body>
+</html>

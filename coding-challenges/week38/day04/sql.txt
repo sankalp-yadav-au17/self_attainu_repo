@@ -1,0 +1,28 @@
+/*
+DDL
+CREATE
+ALTER
+TRUNCATE
+DROP
+RENAME
+*/
+
+/*
+DML
+INSERT 
+UPDATE
+DELETE
+*/
+
+/*query to create database*/
+CREATE DATABASE bank;
+
+/*
+-right click on the database and created 3 new table 
+-clicked on add button and added dummy data like acc no., customer_name, employee_name
+*/
+
+INSERT INTO account VALUES(90237);
+INSERT INTO customer VALUES("Sid");
+INSERT INTO employee VALUES("Sankalp");
+

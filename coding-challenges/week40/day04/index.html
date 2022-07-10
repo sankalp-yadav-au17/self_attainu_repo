@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.socket.io/4.4.1/socket.io.min.js" integrity="sha384-fKnu0iswBIqkjxrhQCTZ7qlLHOFEgNkRmK2vaO/LbTZSXdJfAu6ewRBdwHPhBo/H" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    Write to the left
+    <textarea name="" id="likha_hua" cols="30" rows="10"></textarea>
+    <button id="btn">Submit</button>
+
+    <script>
+        const btn = document.getElementById("btn");
+        const likha_hua = document.getElementById("likha_hua")
+        const serverInstance = io()
+
+        serverInstance.on('connection',(socket)=>{
+            console.log("connected to server!!");   
+        })
+
+        serverInstance.on("messageToAll",(message)=>{
+            likha_hua.value = message.text
+            console.log(message);
+        })
+        
+        likha_hua.addEventListener('keyup',()=>{
+            if (likha_hua.value){
+                const messageValue = {
+                    text:likha_hua.value
+                }
+                serverInstance.emit('chatMessage',messageValue);
+            }
+        })
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- CSS only --> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="tictacktoe.css">
+    <script defer src="tictacktoe.js"></script>
+  <title>Document</title>
+</head>
+<body>
+    <section class="container border d-flex justify-content-center align-items-center vh-100 flex-column">
+        <section class="board border d-flex flex-wrap justify-content-center align-items-center">
+            <input class="m-1 border rounded-3" type="text" id="box1" onclick="block1(); game();" readonly></input>
+            <input class="m-1 border rounded-3" type="text" id="box2" onclick="block2(); game();" readonly></input>
+            <input class="m-1 border rounded-3" type="text" id="box3" onclick="block3(); game();" readonly></input>
+            <input class="m-1 border rounded-3" type="text" id="box4" onclick="block4(); game();" readonly></input>
+            <input class="m-1 border rounded-3" type="text" id="box5" onclick="block5(); game();" readonly></input>
+            <input class="m-1 border rounded-3" type="text" id="box6" onclick="block6(); game();" readonly></input>
+            <input class="m-1 border rounded-3" type="text" id="box7" onclick="block7(); game();" readonly></input>
+            <input class="m-1 border rounded-3" type="text" id="box8" onclick="block8(); game();" readonly></input>
+            <input class="m-1 border rounded-3" type="text" id="box9" onclick="block9(); game();" readonly></input>
+        </section>
+        
+        <section id="winner" class="winner_message border m-5 p-5  text-center ">
+            <div id="message" class=" fs-1">
+                Player x turn 
+            </div>
+            <button onclick="reset();game()">Restart</button>
+        </section>
+    </section>
+</body>
+</html> 
