@@ -1,0 +1,29 @@
+Q-1 ) Briefly describe CAP theorem
+Ans:
+    Consistency
+Consistency means that all clients see the same data at the same time, no matter which node they connect to. For this to happen, whenever data is written to one node, it must be instantly forwarded or replicated to all the other nodes in the system before the write is deemed ‘successful.’
+
+Availability
+Availability means that any client making a request for data gets a response, even if one or more nodes are down. Another way to state this—all working nodes in the distributed system return a valid response for any request, without exception.
+
+Partition Tolerance
+A partition is a communications break within a distributed system—a lost or temporarily delayed connection between two nodes. Partition tolerance means that the cluster must continue to work despite any number of communication breakdowns between nodes in the system.
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Q-2) Explain DHCP, ARP and NAT.
+Ans:
+DHCP
+    Dynamic Host Configuration Protocol(DHCP) is an application layer protocol which is used to provide:
+Subnet Mask (Option 1 – e.g., 255.255.255.0)
+Router Address (Option 3 – e.g., 192.168.1.1)
+DNS Address (Option 6 – e.g., 8.8.8.8)
+Vendor Class Identifier (Option 43 – e.g., ‘unifi’ = 192.168.1.9 ##where unifi = controller)
+DHCP is based on a client-server model and based on discovery, offer, request, and ACK.
+DHCP port number for server is 67 and for the client is 68. It is a Client server protocol which uses UDP services. IP address is assigned from a pool of addresses. In DHCP, the client and the server exchange mainly 4 DHCP messages in order to make a connection, also called DORA process, but there are 8 DHCP messages in the process.
+
+ARP
+    The acronym ARP stands for Address Resolution Protocol which is one of the most important protocols of the Network layer in the OSI model. 
+Note: ARP finds the hardware address, also known as Media Access Control (MAC) address, of a host from its known IP address. Most of the computer programs/applications use logical address (IP address) to send/receive messages, however the actual communication happens over the physical address (MAC address) i.e from layer 2 of OSI model. So our mission is to get the destination MAC address which helps in communicating with other devices. This is where ARP comes into the picture, its functionality is to translate IP address to physical address. 
+
+NAT
+To access the Internet, one public IP address is needed, but we can use a private IP address in our private network. The idea of NAT is to allow multiple devices to access the Internet through a single public address. To achieve this, the translation of private IP address to a public IP address is required. Network Address Translation (NAT) is a process in which one or more local IP address is translated into one or more Global IP address and vice versa in order to provide Internet access to the local hosts. Also, it does the translation of port numbers i.e. masks the port number of the host with another port number, in the packet that will be routed to the destination. It then makes the corresponding entries of IP address and port number in the NAT table. NAT generally operates on router or firewall. 
