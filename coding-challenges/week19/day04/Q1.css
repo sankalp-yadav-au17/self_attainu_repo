@@ -1,0 +1,89 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(229, 245, 245);
+    justify-content:space-around;
+    margin: 400px;
+}
+
+.dots{
+    display:block;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: black;
+}
+.dice{
+    padding: 4px;
+    background-color: #e7e7e7;
+    height: 100px;
+    width: 100px;
+    box-shadow: 5px -5px 1px 0px #d7d7d7 inset, -5px -5px 1px 0px #d7d7d7 inset ;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+
+.roll1{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+
+.roll2{
+    display: flex;
+    justify-content: space-between;  
+}
+.roll2 .dots:nth-of-type(2){
+    align-self: flex-end;
+}
+
+
+.roll3{
+    display: flex;
+    justify-content: space-between;
+}
+.roll3 .dots:nth-of-type(2){
+    align-self:center;
+}
+.roll3 .dots:nth-of-type(3){
+    align-self: flex-end;
+}
+
+.roll4{
+    display: flex;
+    justify-content: space-between;
+}
+.d1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.roll5{
+    display: flex;
+    justify-content: space-between;
+}
+.d2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.d3{
+    align-self: center;
+}
+
+
+.roll6{
+    display: flex;
+    justify-content: space-between;
+}
+.d5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+

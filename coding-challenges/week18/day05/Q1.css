@@ -1,0 +1,43 @@
+div{
+    margin: 400px 500px;
+    width: 803px;
+    height: 50px;
+    border-color: rgb(130, 137, 238);
+    border-width: 10px;
+}
+
+.buttons{
+    font-size: 24px;
+    padding: 10px 24px;
+    border-radius: 10px;
+}
+
+.Default{
+    background-color: white;
+}
+.Primary{
+    background-color:#4d8ac8;
+    color: white;
+}
+
+.Success{
+    background-color: #5db95f;
+    color: white;
+}
+
+.Info{
+    background-color: #64bfdd;
+    color: white;
+
+}
+
+.Warning{
+    background-color: #edae55;
+    color: white;
+}
+
+.Danger{
+    background-color: #d65452;
+    color: white;
+}
+

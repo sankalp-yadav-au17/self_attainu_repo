@@ -1,0 +1,44 @@
+div.normal{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    margin: 10px 50%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+div.header{
+    position: fixed;
+    border: 1px solid #e3e3e3;
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #abe2ab;
+    top: 0px;
+}
+
+div.footer{
+    position:fixed;
+    border: 1px solid #e3e3e3;
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #abe2ab;
+    bottom: 0px;
+    text-align: center;
+
+}
+
+div.text{
+    padding: 20px 10px;
+    display: inline-block;
+    transition: all 1s ease;
+
+}
+
+div.text:hover{
+    background-color: #97be64;
+    cursor:crosshair;
+    transform: scale(1.3);
+    opacity: 0.2;
+
+}

@@ -1,0 +1,85 @@
+div.main{
+    margin:200px 400px;
+}
+
+div.common{
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    transition: 1s ease;
+}
+
+div.container{
+    position:relative
+}
+
+div.common:hover{
+    box-shadow: 5px 5px 20px 10px black;
+    transform:rotate(360deg);
+    cursor: pointer;
+}
+span{
+    position:relative;
+    top: 90px;
+}
+div.primary{
+    background-color: #495162;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+div.secondary{
+    background-color: #a9b8d0;
+    color: black;
+    text-align: center;
+    display: inline-block;
+}
+
+div.neutral{
+    background-color: #ebebeb;
+    color: black;
+    text-align: center;
+    display: inline-block;
+}
+
+div.accent{
+    background-color: #47b1e8;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+div.success{
+    background-color: #46ac6c;
+    color: white;
+    text-align: center;
+    display: inline-block;
+
+}
+
+div.alert{
+    background-color: #ec422d;
+    color: white;
+    text-align: center;
+    display: inline-block;
+
+}
+
+div.warning{
+    background-color: #ec8b30;
+    color: white;
+    text-align: center;
+    display: inline-block;
+
+}
+
+div.info{
+    background-color: #a3d3e7;
+    color: black;
+    text-align: center;
+    display: inline-block;
+
+}
+
+

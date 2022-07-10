@@ -1,0 +1,110 @@
+div{
+    margin: 400px 650px;
+}
+
+a.default{
+    display: inline;
+    background:white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+}
+
+a.default:hover{
+    background:grey;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 13px;
+    cursor: pointer;
+}
+
+a.primary{
+    display: inline;
+    background:#4d8ac8;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+a.primary:hover{
+    background:#0e4277;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 13px;
+    cursor: pointer;
+
+}
+
+a.success{
+    display: inline;
+    background:#5db95f;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+a.success:hover{
+    background:#1d7a1f;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 13px;
+    cursor: pointer;
+
+}
+
+a.info{
+    display: inline;
+    background:#64bfdd;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+a.info:hover{
+    background:#3993b1;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 13px;
+    cursor: pointer;
+
+}
+
+a.warning{
+    display: inline;
+    background:#edae55;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+a.warning:hover{
+    background:#bb7f2c;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 13px;
+    cursor: pointer;
+
+}
+
+a.danger{
+    display: inline;
+    background:#d65452;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+a.danger:hover{
+    background:#ac3a38;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 13px;
+    cursor: pointer;
+
+}

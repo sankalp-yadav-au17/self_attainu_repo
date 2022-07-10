@@ -1,0 +1,34 @@
+html{
+    border-style: solid;
+    border-color: rgb(60, 97, 153);
+}
+
+img{
+    width: 15%;
+    height: auto;
+    margin-left:43%;
+    border-radius: 50%;
+
+}
+h2.first{
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h2.second{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+p{
+    color:rgb(60, 97, 153);
+}
+
+div.box{
+    height: 200px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:25px;
+    background-color:rgb(233, 233, 233);
+}
+

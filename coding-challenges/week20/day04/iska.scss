@@ -1,0 +1,35 @@
+
+.searchbar1{
+    background-color: blue;
+    color: white;
+    padding: 30px;
+    margin: 100px 350px 0px 350px;
+    box-shadow: 5px -1px 5px 5px rgb(134, 134, 134);
+
+    .sub input{
+        border-radius: 30px;
+        padding-left: 10px;
+    }
+}
+
+.searchbar2{
+    padding: 30px;
+    margin: 0px 350px 100px 350px;
+    overflow: scroll;
+    height: 500px;
+    box-shadow: 5px 1px 5px 5px rgb(134, 134, 134);
+
+    .sub{
+        padding: 20px;
+
+        img{
+            height: 90px;
+            width: 90px;
+            border-radius: 50%;
+        }
+
+        .details{
+            padding-left: 100px;
+        }
+    }
+}

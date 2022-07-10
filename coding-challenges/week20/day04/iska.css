@@ -1,0 +1,30 @@
+.searchbar1 {
+  background-color: blue;
+  color: white;
+  padding: 30px;
+  margin: 100px 350px 0px 350px;
+  box-shadow: 5px -1px 5px 5px #868686;
+}
+.searchbar1 .sub input {
+  border-radius: 30px;
+  padding-left: 10px;
+}
+
+.searchbar2 {
+  padding: 30px;
+  margin: 0px 350px 100px 350px;
+  overflow: scroll;
+  height: 500px;
+  box-shadow: 5px 1px 5px 5px #868686;
+}
+.searchbar2 .sub {
+  padding: 20px;
+}
+.searchbar2 .sub img {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+}
+.searchbar2 .sub .details {
+  padding-left: 100px;
+}/*# sourceMappingURL=iska.css.map */

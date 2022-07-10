@@ -1,0 +1,20 @@
+.body {
+  background-color: bisque;
+}
+
+.main {
+  margin: 300px !important;
+  background-color: bisque;
+}
+.main section {
+  margin: 10px;
+}
+.main section.button {
+  height: 100px;
+}
+.main div.button {
+  color: white;
+  height: 50px;
+  width: 200px;
+  padding-top: 13px;
+}/*# sourceMappingURL=satisfaction.css.map */

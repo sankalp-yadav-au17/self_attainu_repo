@@ -1,0 +1,31 @@
+.body{
+    background-color: bisque;
+}
+
+.main{
+    margin: 300px !important;
+    background-color: bisque;
+
+
+    section{
+        margin: 10px;
+    }
+    section.button{
+        height: 100px;
+    }
+    div.button{
+        color:white;
+        height: 50px; 
+        width: 200px;
+        padding-top: 13px;
+    }
+
+    .outer{
+        height: 150px !important;
+        width: 150px !important;
+    }
+    .outer:hover{
+        box-shadow: 0 1rem 3rem rgba($black, .175);
+    }
+    
+}

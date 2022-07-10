@@ -1,0 +1,20 @@
+section {
+  background-color: black;
+  border: 6px solid black;
+  width: 836px;
+  height: 800px;
+  margin: 80px 500px;
+}
+section .black {
+  background-color: black;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  color: white;
+}
+section .white {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}/*# sourceMappingURL=chessboard.css.map */

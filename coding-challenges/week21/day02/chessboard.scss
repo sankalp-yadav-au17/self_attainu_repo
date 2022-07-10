@@ -1,0 +1,22 @@
+section{
+    background-color: black;
+    border: 6px solid black;
+    width: 836px;
+    height: 800px;
+    margin: 80px 500px;
+
+    .black{
+        background-color: black;
+        height: 100px;
+        width: 100px;
+        display: inline-block;
+        color: white;
+    }
+
+    .white{
+        background-color: white;
+        height: 100px;
+        width: 100px;
+        display: inline-block;
+    }
+}
